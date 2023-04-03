@@ -54,6 +54,7 @@ public class Rotten
             event.accept(ModItems.ROTTEN_PORKCHOP);
             event.accept(ModItems.ROTTEN_BEEF);
             event.accept(ModItems.ROTTEN_MUTTON);
+            event.accept(ModItems.ROTTEN_CHICKEN);
             event.accept(ModItems.ROTTEN_SALMON);
             event.accept(ModItems.ROTTEN_COD);
             event.accept(ModItems.ROTTEN_RABBIT);
