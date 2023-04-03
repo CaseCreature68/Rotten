@@ -49,6 +49,7 @@ public class FirstMod
         if (event.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.ROTTEN_PORKCHOP);
             event.accept(ModItems.ROTTEN_BEEF);
+            event.accept(ModItems.ROTTEN_MUTTON);
         }
     }
 

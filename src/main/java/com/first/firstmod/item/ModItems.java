@@ -22,6 +22,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod((float) 0.8).effect(
                     () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
 
+    public static final RegistryObject<Item> ROTTEN_MUTTON = ITEMS.register("rotten_mutton",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod((float) 0.8).effect(
+                    () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
