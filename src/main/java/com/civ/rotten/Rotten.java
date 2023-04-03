@@ -58,6 +58,7 @@ public class Rotten
             event.accept(ModItems.ROTTEN_COD);
             event.accept(ModItems.ROTTEN_RABBIT);
             event.accept(ModItems.EXPIRED_RABBIT_STEW);
+            event.accept(ModItems.FISH_BONE);
 
             //Blocks
             event.accept(ModBlocks.PILE_OF_ROTTEN_PORKCHOP);

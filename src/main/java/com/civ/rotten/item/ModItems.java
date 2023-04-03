@@ -42,6 +42,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod((float) 0.8).effect(
                     () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
 
+    public static final RegistryObject<Item> FISH_BONE = ITEMS.register("fish_bone",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
