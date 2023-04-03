@@ -1,5 +1,6 @@
 package com.first.firstmod;
 
+import com.first.firstmod.block.ModBlocks;
 import com.first.firstmod.item.ModCreativeModeTabs;
 import com.first.firstmod.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -34,6 +35,8 @@ public class FirstMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -48,6 +51,7 @@ public class FirstMod
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
         if (event.getTab() == ModCreativeModeTabs.ROTTEN_FOODS) {
+          //Items
             event.accept(ModItems.ROTTEN_PORKCHOP);
             event.accept(ModItems.ROTTEN_BEEF);
             event.accept(ModItems.ROTTEN_MUTTON);
@@ -55,6 +59,9 @@ public class FirstMod
             event.accept(ModItems.ROTTEN_COD);
             event.accept(ModItems.ROTTEN_RABBIT);
             event.accept(ModItems.EXPIRED_RABBIT_STEW);
+
+            //Blocks
+            event.accept(ModBlocks.PILE_OF_ROTTEN_PORKCHOP);
         }
     }
 
