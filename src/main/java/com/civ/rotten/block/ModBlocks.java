@@ -27,6 +27,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> PILE_OF_ROTTEN_MUTTON = registerBlock("pile_of_rotten_mutton",
             () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
                     .strength(1f)));
+    public static final RegistryObject<Block> PILE_OF_ROTTEN_CHICKEN = registerBlock("pile_of_rotten_chicken",
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
+                    .strength(1f)));
     public static final RegistryObject<Block> PILE_OF_ROTTEN_SALMON = registerBlock("pile_of_rotten_salmon",
             () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
                     .strength(1f)));
