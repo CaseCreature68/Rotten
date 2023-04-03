@@ -1,15 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "pattern": [
-    "#"
-  ],
-  "key": {
-    "#": {
+  "category": "misc",
+  "ingredients": [
+    {
       "item": "rotten:pile_of_rotten_rabbit"
     }
-  },
+  ],
   "result": {
-    "item": "rotten:rotten_rabbit",
-    "count": 9
+    "count": 9,
+    "item": "rotten:rotten_rabbit"
   }
 }
