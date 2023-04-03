@@ -1,5 +1,6 @@
 package com.first.firstmod;
 
+import com.first.firstmod.item.ModCreativeModeTabs;
 import com.first.firstmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -46,7 +47,7 @@ public class FirstMod
 
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
-        if (event.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
+        if (event.getTab() == ModCreativeModeTabs.ROTTEN_FOODS) {
             event.accept(ModItems.ROTTEN_PORKCHOP);
             event.accept(ModItems.ROTTEN_BEEF);
             event.accept(ModItems.ROTTEN_MUTTON);

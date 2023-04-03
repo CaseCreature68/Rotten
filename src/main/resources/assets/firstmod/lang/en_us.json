@@ -1,5 +1,7 @@
 {
   "item.firstmod.rotten_porkchop": "Rotten Porkchop",
   "item.firstmod.rotten_beef": "Rotten Beef",
-  "item.firstmod.rotten_mutton": "Rotten Mutton"
+  "item.firstmod.rotten_mutton": "Rotten Mutton",
+
+  "creativemodetab.rotten_tab": "Rotten Foods"
 }
