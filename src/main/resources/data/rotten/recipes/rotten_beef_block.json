@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rotten:rotten_beef"
+    }
+  },
+  "result": {
+    "item": "rotten:pile_of_rotten_beef",
+    "count": 1
+  }
+}
