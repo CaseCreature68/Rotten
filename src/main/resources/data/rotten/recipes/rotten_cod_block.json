@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rotten:rotten_cod"
+    }
+  },
+  "result": {
+    "item": "rotten:pile_of_rotten_cod",
+    "count": 1
+  }
+}
