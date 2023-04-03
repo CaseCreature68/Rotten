@@ -2,6 +2,10 @@
   "item.firstmod.rotten_porkchop": "Rotten Porkchop",
   "item.firstmod.rotten_beef": "Rotten Beef",
   "item.firstmod.rotten_mutton": "Rotten Mutton",
+  "item.firstmod.rotten_mutton": "Rotten Salmon",
+  "item.firstmod.rotten_mutton": "Rotten Cod",
+  "item.firstmod.rotten_mutton": "Rotten Rabbit",
+  "item.firstmod.rotten_mutton": "Expired Rabbit Stew",
 
   "creativemodetab.rotten_tab": "Rotten Foods"
 }

@@ -25,6 +25,18 @@ public class ModItems {
     public static final RegistryObject<Item> ROTTEN_MUTTON = ITEMS.register("rotten_mutton",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod((float) 0.8).effect(
                     () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
+    public static final RegistryObject<Item> ROTTEN_SALMON = ITEMS.register("rotten_salmon",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod((float) 0.8).effect(
+                    () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
+    public static final RegistryObject<Item> ROTTEN_COD = ITEMS.register("rotten_cod",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod((float) 0.8).effect(
+                    () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
+    public static final RegistryObject<Item> ROTTEN_RABBIT = ITEMS.register("rotten_rabbit",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod((float) 0.8).effect(
+                    () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
+    public static final RegistryObject<Item> EXPIRED_RABBIT_STEW = ITEMS.register("expired_rabbit_stew",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod((float) 0.8).effect(
+                    () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
