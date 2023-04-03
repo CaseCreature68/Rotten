@@ -9,6 +9,7 @@
   "item.rotten.expired_rabbit_stew": "Expired Rabbit Stew",
   "item.rotten.fish_bone": "Fish Bone",
 
+
   
   "block.rotten.pile_of_rotten_porkchop": "Pile Of Rotten Porkchop",
   "block.rotten.pile_of_rotten_beef": "Pile Of Rotten Beef",
@@ -17,6 +18,7 @@
   "block.rotten.pile_of_rotten_salmon": "Pile Of Rotten Salmon",
   "block.rotten.pile_of_rotten_cod": "Pile Of Rotten Cod",
   "block.rotten.pile_of_rotten_rabbit": "Pile Of Rotten Rabbit",
+  "block.rotten.fridge": "Fridge",
 
   "creativemodetab.rotten_tab": "Rotten Foods"
 }

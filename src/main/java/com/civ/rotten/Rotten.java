@@ -69,6 +69,7 @@ public class Rotten
             event.accept(ModBlocks.PILE_OF_ROTTEN_SALMON);
             event.accept(ModBlocks.PILE_OF_ROTTEN_COD);
             event.accept(ModBlocks.PILE_OF_ROTTEN_RABBIT);
+            event.accept(ModBlocks.FRIDGE);
         }
     }
 
