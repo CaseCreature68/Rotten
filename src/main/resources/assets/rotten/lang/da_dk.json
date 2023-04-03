@@ -1,0 +1,18 @@
+{
+  "item.rotten.rotten_porkchop": "Rådden Svinekotelet",
+  "item.rotten.rotten_beef": "Rådden Bøf",
+  "item.rotten.rotten_mutton": "Rådden Fårekød",
+  "item.rotten.rotten_salmon": "Rådden Laks",
+  "item.rotten.rotten_cod": "Rådden Torsk",
+  "item.rotten.rotten_rabbit": "Rådden Kanin",
+  "item.rotten.expired_rabbit_stew": "Udløbet Kaningryderet",
+
+  "block.rotten.pile_of_rotten_porkchop": "Bunke af Rådden Svinekotelet",
+  "block.rotten.pile_of_rotten_beef": "Bunke af Rådden Bøf",
+  "block.rotten.pile_of_rotten_mutton": "Bunke af Rådden Fårekød",
+  "block.rotten.pile_of_rotten_salmon": "Bunke af Rådden Laks",
+  "block.rotten.pile_of_rotten_cod": "Bunke af Rådden Torsk",
+  "block.rotten.pile_of_rotten_rabbit": "Bunke af Rådden Kanin",
+
+  "creativemodetab.rotten_tab": "Råddent Mad"
+}

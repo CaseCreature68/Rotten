@@ -1,0 +1,18 @@
+{
+  "item.rotten.rotten_porkchop": "Verotte Karbonade",
+  "item.rotten.rotten_beef": "Verotte Rundvlees ",
+  "item.rotten.rotten_mutton": "Verotte Schapenvlees",
+  "item.rotten.rotten_salmon": "Verotte Zalm",
+  "item.rotten.rotten_cod": "Verotte Kabeljauw",
+  "item.rotten.rotten_rabbit": "Verotte Konijn",
+  "item.rotten.expired_rabbit_stew": "Over De Datum Konijnenstoofpot",
+
+  "block.rotten.pile_of_rotten_porkchop": "Stapel Rotte Karbonade",
+  "block.rotten.pile_of_rotten_beef": "Stapel Rot Rundvlees",
+  "block.rotten.pile_of_rotten_mutton": "Stapel Rot Schapenvlees",
+  "block.rotten.pile_of_rotten_salmon": "Stapel Rotte Zalm",
+  "block.rotten.pile_of_rotten_cod": "Stapel Rotte Kabeljauw",
+  "block.rotten.pile_of_rotten_rabbit": "Stapel Rot Konijn",
+
+  "creativemodetab.rotten_tab": "Rot Voedsel"
+}

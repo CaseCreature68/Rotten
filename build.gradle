@@ -5,8 +5,8 @@ plugins {
 }
 
 version = '1.0'
-group = 'com.first.firstmod'
-archivesBaseName = 'firstmod'
+group = 'com.civ.rotten'
+archivesBaseName = 'rotten'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -70,7 +70,7 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'firstmod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'rotten', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
                 examplemod {

@@ -1,0 +1,18 @@
+{
+  "item.rotten.rotten_porkchop": "Rutten Fläskkotlett",
+  "item.rotten.rotten_beef": "Ruttet Nötkött",
+  "item.rotten.rotten_mutton": "Ruttet Fårkött",
+  "item.rotten.rotten_salmon": "Rutten Lax",
+  "item.rotten.rotten_cod": "Rutten Torsk",
+  "item.rotten.rotten_rabbit": "Rutten Kanin",
+  "item.rotten.expired_rabbit_stew": "Utgången Kaningryta",
+
+  "block.rotten.pile_of_rotten_porkchop": "Hög med Ruttet Fläskkotlett",
+  "block.rotten.pile_of_rotten_beef": "Hög med Ruttet Nötkött",
+  "block.rotten.pile_of_rotten_mutton": "Hög med Ruttet Fårkött",
+  "block.rotten.pile_of_rotten_salmon": "Hög med Rutten Lax",
+  "block.rotten.pile_of_rotten_cod": "Hög med Rutten Torsk",
+  "block.rotten.pile_of_rotten_rabbit": "Hög med Ruttna Kaniner",
+
+  "creativemodetab.rotten_tab": "Rutten Mat"
+}
