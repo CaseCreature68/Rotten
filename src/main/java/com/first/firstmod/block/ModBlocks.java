@@ -22,7 +22,21 @@ public class ModBlocks {
     public static final RegistryObject<Block> PILE_OF_ROTTEN_PORKCHOP = registerBlock("pile_of_rotten_porkchop",
             () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
                     .strength(1f)));
-
+    public static final RegistryObject<Block> PILE_OF_ROTTEN_BEEF = registerBlock("pile_of_rotten_beef",
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
+                    .strength(1f)));
+    public static final RegistryObject<Block> PILE_OF_ROTTEN_MUTTON = registerBlock("pile_of_rotten_mutton",
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
+                    .strength(1f)));
+    public static final RegistryObject<Block> PILE_OF_ROTTEN_SALMON = registerBlock("pile_of_rotten_salmon",
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
+                    .strength(1f)));
+    public static final RegistryObject<Block> PILE_OF_ROTTEN_COD = registerBlock("pile_of_rotten_cod",
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
+                    .strength(1f)));
+    public static final RegistryObject<Block> PILE_OF_ROTTEN_RABBIT = registerBlock("pile_of_rotten_rabbit",
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
+                    .strength(1f)));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

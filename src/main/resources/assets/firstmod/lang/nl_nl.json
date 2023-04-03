@@ -6,7 +6,13 @@
   "item.firstmod.rotten_cod": "Verotte Kabeljauw",
   "item.firstmod.rotten_rabbit": "Verotte Konijn",
   "item.firstmod.expired_rabbit_stew": "Over De Datum Konijnenstoofpot",
+
   "block.firstmod.pile_of_rotten_porkchop": "Stapel Rotte Karbonade",
+  "block.firstmod.pile_of_rotten_beef": "Stapel Rot Rundvlees",
+  "block.firstmod.pile_of_rotten_mutton": "Stapel Rot Schapenvlees",
+  "block.firstmod.pile_of_rotten_salmon": "Stapel Rotte Zalm",
+  "block.firstmod.pile_of_rotten_cod": "Stapel Rotte Kabeljauw",
+  "block.firstmod.pile_of_rotten_rabbit": "Stapel Rot Konijn",
 
   "creativemodetab.rotten_tab": "Rot Voedsel"
 }

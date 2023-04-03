@@ -62,6 +62,11 @@ public class FirstMod
 
             //Blocks
             event.accept(ModBlocks.PILE_OF_ROTTEN_PORKCHOP);
+            event.accept(ModBlocks.PILE_OF_ROTTEN_BEEF);
+            event.accept(ModBlocks.PILE_OF_ROTTEN_MUTTON);
+            event.accept(ModBlocks.PILE_OF_ROTTEN_SALMON);
+            event.accept(ModBlocks.PILE_OF_ROTTEN_COD);
+            event.accept(ModBlocks.PILE_OF_ROTTEN_RABBIT);
         }
     }
 
