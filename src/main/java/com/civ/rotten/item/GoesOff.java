@@ -1,7 +1,6 @@
 package com.civ.rotten.item;
 
 import net.minecraft.client.renderer.texture.Tickable;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 
 import java.util.Properties;
@@ -23,6 +22,7 @@ public class GoesOff extends Properties implements Tickable {
     public void tick() {
         ticksPassed++;
         if (ticksPassed >= ticks) {
+
         }
     }
 }
