@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model":  "firstmod:block/pile_of_rotten_porkchop"}
+    "": { "model":  "rotten:block/pile_of_rotten_porkchop"}
   }
 }
