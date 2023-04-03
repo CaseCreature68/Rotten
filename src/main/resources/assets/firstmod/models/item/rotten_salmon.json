@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "firstmod:item/rotten_salmon",
+    "layer0": "firstmod:item/rotten_salmon"
 
   }
 }
