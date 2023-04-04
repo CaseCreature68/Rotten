@@ -73,7 +73,7 @@ minecraft {
             args '--mod', 'rotten', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                examplemod {
+                rotten {
                     source sourceSets.main
                 }
             }
