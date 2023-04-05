@@ -47,7 +47,7 @@ public class ModItems {
                     () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
 
     public static final RegistryObject<Item> ICE_HOOK = ITEMS.register("ice_hook",
-            () -> new IceHook(2.0f, 2.8f, Tiers.WOOD, new Item.Properties().durability(300)));
+            () -> new IceHook(2.0f, 2.8f, Tiers.WOOD, new Item.Properties().durability(200)));
 
     public static final RegistryObject<Item> FISH_BONE = ITEMS.register("fish_bone",
             () -> new Item(new Item.Properties()));
