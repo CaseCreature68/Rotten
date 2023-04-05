@@ -5,6 +5,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -44,6 +45,9 @@ public class ModItems {
     public static final RegistryObject<Item> EXPIRED_RABBIT_STEW = ITEMS.register("expired_rabbit_stew",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod((float) 0.8).effect(
                     () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
+
+    public static final RegistryObject<Item> ICE_HOOK = ITEMS.register("ice_hook",
+            () -> new IceHook(2.0f, 2.8f, Tiers.WOOD, new Item.Properties().durability(300)));
 
     public static final RegistryObject<Item> FISH_BONE = ITEMS.register("fish_bone",
             () -> new Item(new Item.Properties()));
