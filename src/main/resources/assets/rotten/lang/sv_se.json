@@ -18,5 +18,7 @@
   "block.rotten.pile_of_rotten_rabbit": "Hög med Ruttna Kaniner",
   "block.rotten.fridge": "Kylskåp",
 
-  "creativemodetab.rotten_tab": "Rutten Mat"
+  "creativemodetab.rotten_tab": "Rutten Mat",
+  "item.rotten.rotten_chicken": "Rotten Chicken",
+  "item.rotten.ice_shard": "Is-skärva"
 }

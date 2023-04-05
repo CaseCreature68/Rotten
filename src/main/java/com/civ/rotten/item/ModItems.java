@@ -52,6 +52,9 @@ public class ModItems {
     public static final RegistryObject<Item> FISH_BONE = ITEMS.register("fish_bone",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ICE_SHARD = ITEMS.register("ice_shard",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
