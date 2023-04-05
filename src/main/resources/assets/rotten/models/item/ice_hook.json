@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "rotten:item/fish_bone"
+    "layer0": "rotten:item/ice_hook"
   }
 }
