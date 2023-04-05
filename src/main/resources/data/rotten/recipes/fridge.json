@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#!#",
+    "#l#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "!": {
+      "tag": "forge:glass_panes"
+    },
+    "l": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "item": "rotten:fridge",
+    "count": 1
+  }
+}
