@@ -39,6 +39,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> PILE_OF_ROTTEN_RABBIT = registerBlock("pile_of_rotten_rabbit",
             () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
                     .strength(1f)));
+    public static final RegistryObject<Block> PILE_OF_ROTTEN_TURTLE_MEAT = registerBlock("pile_of_rotten_turtle_meat",
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
+                    .strength(1f)));
 
     public static final RegistryObject<Block> FRIDGE = registerBlock("fridge",
             () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rotten:pile_of_rotten_turtle_meat"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "rotten:rotten_turtle_meat"
+  }
+}

@@ -8,6 +8,11 @@
   "item.rotten.expired_rabbit_stew": "Utgången Kaningryta",
   "item.rotten.fish_bone": "Fiskben",
   "item.rotten.ice_hook": "Iskrok",
+  "item.rotten.rotten_chicken": "Rotten Chicken",
+  "item.rotten.ice_shard": "Is-skärva",
+  "item.rotten.raw_turtle_meat": "Rå Sköldpaddskött",
+  "item.rotten.rotten_turtle_meat": "Rutten Sköldpaddskött",
+  "item.rotten.cooked_turtle_meat": "Kokt Sköldpaddskött",
 
   "block.rotten.pile_of_rotten_porkchop": "Hög med Ruttet Fläskkotlett",
   "block.rotten.pile_of_rotten_beef": "Hög med Ruttet Nötkött",
@@ -16,9 +21,9 @@
   "block.rotten.pile_of_rotten_salmon": "Hög med Rutten Lax",
   "block.rotten.pile_of_rotten_cod": "Hög med Rutten Torsk",
   "block.rotten.pile_of_rotten_rabbit": "Hög med Ruttna Kaniner",
+  "block.rotten.pile_of_rotten_turtle_meat": "Hög med Rutten Sköldpaddskött",
   "block.rotten.fridge": "Kylskåp",
 
-  "creativemodetab.rotten_tab": "Rutten Mat",
-  "item.rotten.rotten_chicken": "Rotten Chicken",
-  "item.rotten.ice_shard": "Is-skärva"
+  "creativemodetab.rotten_tab": "Rutten Mat"
+
 }

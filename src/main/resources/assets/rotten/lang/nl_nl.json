@@ -10,6 +10,9 @@
   "item.rotten.fish_bone": "Visgraten",
   "item.rotten.ice_hook": "IJs Haak",
   "item.rotten.ice_shard": "IJs Scherf",
+  "item.rotten.raw_turtle_meat": "Rauw Schildpadvlees",
+  "item.rotten.rotten_turtle_meat": "Verrotte Schildpadvlees",
+  "item.rotten.cooked_turtle_meat": "Gekookt Schildpadvlees",
 
   "block.rotten.pile_of_rotten_porkchop": "Stapel Rotte Karbonade",
   "block.rotten.pile_of_rotten_beef": "Stapel Rot Rundvlees",
@@ -18,6 +21,7 @@
   "block.rotten.pile_of_rotten_salmon": "Stapel Rotte Zalm",
   "block.rotten.pile_of_rotten_cod": "Stapel Rotte Kabeljauw",
   "block.rotten.pile_of_rotten_rabbit": "Stapel Rot Konijn",
+  "block.rotten.pile_of_rotten_turtle_meat": "Stapel Rotte Schildpadvlees",
   "block.rotten.fridge": "Koelkast",
 
   "creativemodetab.rotten_tab": "Rot Voedsel"

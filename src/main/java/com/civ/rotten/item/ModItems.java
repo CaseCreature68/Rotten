@@ -34,6 +34,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod((float) 0.8).effect(
                     () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
 
+    public static final RegistryObject<Item> ROTTEN_TURTLE_MEAT = ITEMS.register("rotten_turtle_meat",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod((float) 0.8).effect(
+                    () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
+
     public static final RegistryObject<Item> ROTTEN_COD = ITEMS.register("rotten_cod",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod((float) 0.8).effect(
                     () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
@@ -54,6 +58,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> ICE_SHARD = ITEMS.register("ice_shard",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_TURTLE_MEAT = ITEMS.register("raw_turtle_meat",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod((float) 0.8).effect(
+                    () -> new MobEffectInstance(MobEffects.WATER_BREATHING, 200, 0), 0.8F).build())));
+
+    public static final RegistryObject<Item> COOKED_TURTLE_MEAT = ITEMS.register("cooked_turtle_meat",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod((float) 0.8).effect(
+                    () -> new MobEffectInstance(MobEffects.WATER_BREATHING, 400, 0), 0.8F).build())));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

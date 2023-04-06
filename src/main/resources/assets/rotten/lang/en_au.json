@@ -10,6 +10,10 @@
   "item.rotten.fish_bone": "Fish Bone",
   "item.rotten.ice_hook": "Ice Hook",
   "item.rotten.ice_shard": "Ice Shard",
+  "item.rotten.raw_turtle_meat": "Raw Turtle Meat",
+  "item.rotten.rotten_turtle_meat": "Rotten Turtle Meat",
+  "item.rotten.cooked_turtle_meat": "Cooked Turtle Meat",
+
   
   "block.rotten.pile_of_rotten_porkchop": "Pile Of Rotten Porkchop",
   "block.rotten.pile_of_rotten_beef": "Pile Of Rotten Beef",
@@ -18,6 +22,7 @@
   "block.rotten.pile_of_rotten_salmon": "Pile Of Rotten Salmon",
   "block.rotten.pile_of_rotten_cod": "Pile Of Rotten Cod",
   "block.rotten.pile_of_rotten_rabbit": "Pile Of Rotten Rabbit",
+  "block.rotten.pile_of_rotten_turtle_meat": "Pile of Rotten Turtle Meat",
   "block.rotten.fridge": "Fridge",
 
   "creativemodetab.rotten_tab": "Rotten Foods"

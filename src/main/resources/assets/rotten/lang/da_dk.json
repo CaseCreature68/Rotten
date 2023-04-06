@@ -10,6 +10,10 @@
   "item.rotten.fish_bone": "Fiskeben",
   "item.rotten.ice_hook": "Iskrog",
   "item.rotten.ice_shard": "Is-skær",
+  "item.rotten.turtle_meat": "Rå Skildpaddekød",
+  "item.rotten.rotten_turtle_meat": "Råddent Skildpaddekød",
+  "item.rotten.cooked_turtle_meat": "Kogt Skildpaddekød",
+
 
   "block.rotten.pile_of_rotten_porkchop": "Bunke af Rådden Svinekotelet",
   "block.rotten.pile_of_rotten_beef": "Bunke af Rådden Bøf",
@@ -18,6 +22,7 @@
   "block.rotten.pile_of_rotten_salmon": "Bunke af Rådden Laks",
   "block.rotten.pile_of_rotten_cod": "Bunke af Rådden Torsk",
   "block.rotten.pile_of_rotten_rabbit": "Bunke af Rådden Kanin",
+  "block.rotten.pile_of_rotten_turtle_meat": "Bunke af Råddent Skildpaddekød",
   "block.rotten.fridge": "Køleskab",
 
   "creativemodetab.rotten_tab": "Råddent Mad"

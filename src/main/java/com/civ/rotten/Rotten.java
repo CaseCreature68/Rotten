@@ -63,6 +63,13 @@ public class Rotten
             event.accept(ModItems.ICE_HOOK);
             event.accept(ModItems.ICE_SHARD);
 
+            //Custom Meat
+            event.accept(ModItems.RAW_TURTLE_MEAT);
+            event.accept(ModItems.COOKED_TURTLE_MEAT);
+
+            //Custom Rotten Meat
+            event.accept(ModItems.ROTTEN_TURTLE_MEAT);
+
             //Blocks
             event.accept(ModBlocks.PILE_OF_ROTTEN_PORKCHOP);
             event.accept(ModBlocks.PILE_OF_ROTTEN_BEEF);
@@ -71,6 +78,7 @@ public class Rotten
             event.accept(ModBlocks.PILE_OF_ROTTEN_SALMON);
             event.accept(ModBlocks.PILE_OF_ROTTEN_COD);
             event.accept(ModBlocks.PILE_OF_ROTTEN_RABBIT);
+            event.accept(ModBlocks.PILE_OF_ROTTEN_TURTLE_MEAT);
             event.accept(ModBlocks.FRIDGE);
         }
     }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rotten:rotten_turtle_meat"
+    }
+  },
+  "result": {
+    "item": "rotten:pile_of_rotten_turtle_meat",
+    "count": 1
+  }
+}
