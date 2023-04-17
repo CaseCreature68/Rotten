@@ -14,6 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import javax.tools.Tool;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -46,8 +47,8 @@ public class ModBlocks {
                     .strength(1f)));
 
     public static final RegistryObject<Block> FRIDGE = registerBlock("fridge",
-            () -> new FridgeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
-                    .strength(6f).requiresCorrectToolForDrops().noOcclusion()));
+            () -> new FridgeBlock(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()
+                    .strength(1f)));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
