@@ -14,15 +14,15 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class Fridge extends HorizontalDirectionalBlock {
+public class FridgeBlock extends HorizontalDirectionalBlock {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 
-    public Fridge(Properties properties) {
+    public FridgeBlock(Properties properties) {
         super(properties);
     }
 
     private static final VoxelShape SHAPE =
-            Block.box(0, 0, 0, 16, 10, 16);
+            Block.box(0, 0, 0, 16, 16, -15);
 
     @Override
     public VoxelShape getShape(BlockState p_60555_, BlockGetter p_60556_, BlockPos p_60557_, CollisionContext p_60558_) {

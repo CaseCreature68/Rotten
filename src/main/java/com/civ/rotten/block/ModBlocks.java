@@ -1,6 +1,7 @@
 package com.civ.rotten.block;
 
 import com.civ.rotten.Rotten;
+import com.civ.rotten.block.custom.FridgeBlock;
 import com.civ.rotten.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -44,8 +45,8 @@ public class ModBlocks {
                     .strength(1f)));
 
     public static final RegistryObject<Block> FRIDGE = registerBlock("fridge",
-            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT)
-                    .strength(1f)));
+            () -> new FridgeBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops().noOcclusion()));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
