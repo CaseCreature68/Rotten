@@ -6,6 +6,7 @@ import com.civ.rotten.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -45,7 +46,7 @@ public class ModBlocks {
                     .strength(1f)));
 
     public static final RegistryObject<Block> FRIDGE = registerBlock("fridge",
-            () -> new FridgeBlock(BlockBehaviour.Properties.of(Material.METAL)
+            () -> new FridgeBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
                     .strength(6f).requiresCorrectToolForDrops().noOcclusion()));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
