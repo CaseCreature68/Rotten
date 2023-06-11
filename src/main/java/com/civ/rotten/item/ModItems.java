@@ -50,6 +50,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod((float) 0.8).effect(
                     () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
 
+    public static final RegistryObject<Item> ROTTEN_APPLE = ITEMS.register("rotten_apple",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod((float) 0.8).effect(
+                    () -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.8F).build())));
+
     public static final RegistryObject<Item> ICE_HOOK = ITEMS.register("ice_hook",
             () -> new IceHook(2.0f, 2.8f, Tiers.WOOD, new Item.Properties().durability(200)));
 
